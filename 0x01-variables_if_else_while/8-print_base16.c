@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-	int digit;
+	char i;
 
-	for (digit = '0'; digit <= '9'; digit++)
-	{
-		putchar(digit);
-		if (digit == '9')
-		{
-			digit = 'a';
-			for (; digit <= 'f'; digit++)
-			{
-				putchar(digit);
-			}
-			break;
-		}
-		putchar('\n');
-		return (0);
+	for (i = '0'; i <= '9'; i++)
+        {
+		putchar(i);
+	}
+
+        for (i = 'a'; i <= 'f'; i++
+        
+        {
+                putchar(i);
+	}
+        
+	putchar('\n');
+
+	return (0);
 }
