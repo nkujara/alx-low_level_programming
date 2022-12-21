@@ -1,0 +1,6 @@
+
+
+
+ikksaddddd
+exit
+:q
